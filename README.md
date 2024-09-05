@@ -1,39 +1,31 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_ho_cache
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+A cache manager based on shared_preferences. Works on iOS,Android and Web.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Content
 
-## Features
+- [Examples](#examples)
+- [Getting started](#getting-started)
+- [Contribution](#contribution)
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Examples
 
-## Getting started
+* [Examples](https://github.com/hoseadev/flutter_ho_cache/tree/master/example)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+## Getting Started
 
 ```dart
-const like = 'sample';
+HoCache.getInstance().setString("cache_ke", "cache_value");
+HoCache.getInstance().get("cache_ke");
 ```
 
-## Additional information
+## Contribution
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Issues are welcome. Please add a screenshot of you bug and a code snippet. Quickest way to solve issue is to reproduce it in one of the examples.
+
+Pull requests are welcome. If you want to change the API or do something big it is best to create an issue and discuss it first.
+
+---
+
+**[MIT Licensed](https://github.com/hoseadev/flutter_ho_cache/blob/master/LICENSE)**

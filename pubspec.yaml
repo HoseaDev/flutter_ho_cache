@@ -1,5 +1,5 @@
 name: flutter_ho_cache
-description: "A new Flutter package project.test!"
+description: "A cache manager based on shared_preferences. Works on iOS,Android and Web."
 version: 1.0.0
 repository: 'https://github.com/HoseaDev/flutter_ho_cache'
 
